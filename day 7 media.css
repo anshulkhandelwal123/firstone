@@ -1,0 +1,32 @@
+.mobile{
+    display: block;
+    background-color: greenyellow;
+}
+.tablet{
+    display: none;
+}
+.laptop{
+    display: none;
+}
+@media(min-width:768px){
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        background-color: hotpink;
+        display: block;
+    }
+}
+@media(min-width:1024px){
+    .laptop{
+        display: block;
+        background-color: khaki;
+    }
+    .mobile{
+        display: none;
+    }
+
+.tablet{
+    display: none;
+}
+}

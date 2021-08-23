@@ -1,0 +1,15 @@
+.box {
+    color: crimson;
+    border: darkgreen 2px solid;
+}
+#one {
+    color: darkkhaki;
+    background-color: darkslategray;
+    border: darkturquoise 2px solid;
+}
+ol {
+    background-color: darkturquoise;
+}
+p[name="hi"]{
+    background-color: darkturquoise;
+}

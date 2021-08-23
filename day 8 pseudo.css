@@ -1,0 +1,21 @@
+.btn{
+    background-color: tomato;
+    color: black;
+}
+.btn:hover{
+background-color: blue;
+color: cornsilk;
+}
+.btn:active{
+    background-color: darkblue;
+}
+.btn:focus{
+    background-color: white;
+}
+.para::before{
+    content: "my name is:" ;
+    color: violet;
+}
+.para::selection{
+    background-color: yellow;
+}
